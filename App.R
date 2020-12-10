@@ -566,5 +566,5 @@ server <- function(input, output, session){
   })
 }
 
-#start the app
+#start the shiny app
 shinyApp(ui = ui, server = server)
